@@ -41,7 +41,11 @@ Update the price of the 'Ford Mustang' to $38000.00.
 ### 2. **Conditional Update**
 Increase the price of all cars made in 2022 by 5%.
 
-> ANSWER
+**> ANSWER**
+UPDATE cars
+SET price = price * 1.05
+WHERE year = 2022;
+
 
 ## Deleting records
 ### 1. **Delete Data:**
